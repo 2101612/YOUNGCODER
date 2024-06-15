@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hall Sections</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script/type.js" href="sript.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <style>
+        table {  
+border-collapse: collapse;  
+width: 100%;  
+}  
+  
+th, td {  
+border: 1px solid #ddd;  
+padding: 8px;  
+text-align: left;  
+}  
+  
+th {  
+background-color: #4CAF50;  
+color: white;  
+}  
+    </style>
+</head>
+<body>
+    
+    
+    
+    
+<div>  
+<label for="rows">Number of Rows:</label>  
+<input type="number" id="rows" name="rows" value="3">  
+<label for="cols">Number of Columns:</label>  
+<input type="number" id="cols" name="cols" value="3">  
+<button onclick="generateTable()">Generate Table</button>  
+</div>  
+<div id="table-container"></div>  
+  
+<script>  
+function generateTable() {  
+const rows = document.getElementById('rows').value;  
+const cols = document.getElementById('cols').value;  
+let table = '<table>';  
+for (let i = 0; i< rows; i++) {  
+table += '<tr>';  
+for (let j = 0; j < cols; j++) {  
+table += `<td>Row ${i + 1}, Column ${j + 1}</td>`;  
+}  
+table += '</tr>';  
+}  
+table += '</table>';  
+consttableContainer = document.getElementById('table-container');  
+tabletableContainer.innerHTML = table;  
+}  
+</script> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <!-- Sticky footer placed here -->
+ 
+   <div class="footer" id="footer1">
+<a id="F1" href="Index.html"><b>&#9920</b></br><strong>Home</strong></a> 
+<a id="F1" style="background-color:lightgreen; color:red;" href="akcehalls.html">&#9922</br><strong>Halls</strong></a> 
+<a id="F1" href="akceprivacy.html">&#9921</br><strong>Privacy</strong></a> 
+<a id="F1" href="akceabout.html">&#9775</br><strong>About</strong></a> 
+<a id="F1" href="akcechat.html"><b>&#9920</b></br><strong>Chat</strong></a>
+</div>
+</div>
+</body>
+</html>
