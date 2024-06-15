@@ -1,0 +1,126 @@
+body {
+    background: lavender;
+   justify-content:center;
+  }
+
+
+/* Page content */
+.content {
+  padding:12px;
+}
+
+/* The sticky class is added to the header */.sticky   position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the header */
+.sticky + .content {
+  padding-top: 102px
+  }
+
+a{
+    text-decoration:none;
+    font-character:bold;
+    display:inline;
+    border-size:04px solid blue;
+    border-radius:20px;
+    background-color:white;
+    padding:4px;
+    font-character:bold;
+    align-text: center;
+    margin:4px;
+    justify-content:center;
+   
+}
+a:visited{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:none;
+    background-color: brown;
+}
+
+a:active{
+    text-decoration:none;
+    color:blue;
+}
+
+
+.heading{
+    font:red;
+    font-family: Arial black;
+    background: blue;
+}
+
+#heading{
+    position: absolute;
+}
+
+#ImgH{
+    width:120px;
+    height:110px;
+    position:relative;
+    border:4px solid blue;
+    border-radius:45px 45px 45px 45px;
+}
+
+
+.flex-container{
+    display:flex;
+    align-items:center;
+}
+
+h3{
+    background: blue;
+    justify-content: center;
+    text-align:center;
+}
+
+    #footer1{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: blue;
+  display:flex;
+  text-align:center;
+  justify-content: center;
+}
+
+#F1{
+    text-character:bold;
+    margin:02px;
+    color:black;
+    padding:04px;
+    border:4px groove blue;
+    border-radius:35px;
+}
+
+#myHeader{
+    display:inline;
+    position: absolute;
+    background-color: black;
+    padding:02px;
+    justify-content:center;
+    align-text:center;
+}
+
+    
+table {  
+border-collapse: collapse;  
+width: 100%;  
+}  
+  
+th, td {  
+border: 1px solid #ddd;  
+padding: 8px;  
+text-align: left;  
+}  
+  
+th {  
+background-color: #4CAF50;  
+color: white;  
+}  
